@@ -1,0 +1,60 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Thunderman', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: blue;
+  text-align: center;
+  text-shadow:
+    0.07em 0 white,
+    0 0.07em white,
+    -0.07em 0 white,
+    0 -0.07em white;
+}
+
+header {
+  position: fixed;
+  top: 0;
+  padding-left: 38em;
+}
+
+table {
+  width: 100%;
+  table-layout: fixed;
+}
+
+iframe {
+  object-fit: scale-down;
+}
+
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  position: relative;
+  align-items: center;
+}
+
+.main-container {
+  min-height: 100vh; /* will cover the 100% of viewport */
+  overflow: hidden;
+  display: block;
+  position: relative;
+  padding-bottom: 100px; /* height of your footer */
+}
+
+body {
+  background-image: url("http://i.imgur.com/bCid0Ji.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100%;
+}
+
+footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
